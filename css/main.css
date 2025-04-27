@@ -12,6 +12,12 @@
       font-family: 'Raleway', arial;
   }
 
+  h1{
+    font-size: 52px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+  }
+
 
   /* grid settings (ızgara ayarları) */ 
 
@@ -31,7 +37,7 @@
   /* home settings (ana sayfa ayarları) */ 
 
   header .logo{
-    margin-right: auto;
+    margin-right: auto;      /*logo tasarımı*/
   }
 
   header .logo{
@@ -41,7 +47,7 @@
   }
 
   .menu li{
-    float: left;
+    float: left;      /*menü tasarımı*/
   }
 
   .menu li a{
@@ -50,4 +56,35 @@
     text-decoration: none;
     letter-spacing: 2px;
     color:rgb(255, 0, 0);
+    transition: all .5s ease;
   }
+
+  .menu li:hover a{
+    background:rgb(255, 0, 0);
+    color: white
+  }
+
+  #mainSlider{    /*başlığın altında giriş fotografı*/
+    height: 500px;
+    background: url('../img/mainHome.jpg') center center no-repeat;
+    background-size: cover;
+  }
+
+.slider{
+  width: 100%;
+}
+
+#mainCaption{
+  height: 500px;
+  background: rgba(0,0,0 .5);
+}
+
+
+.caption{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color:black;
+}
