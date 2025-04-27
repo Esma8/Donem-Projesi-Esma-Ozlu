@@ -1,0 +1,53 @@
+  /* general settings (genel ayarları) */ 
+
+  @font-face{
+    font-family:'Raleway';
+    src: url('../fonts/Raleway-Light.ttf');
+  }
+
+  body{
+      background: white;
+      color:rgb(0, 0, 0);  /* yazı rengi*/
+      font: 14px / 28px;
+      font-family: 'Raleway', arial;
+  }
+
+
+  /* grid settings (ızgara ayarları) */ 
+
+  .container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+  }
+
+
+  
+
+
+
+
+
+  /* home settings (ana sayfa ayarları) */ 
+
+  header .logo{
+    margin-right: auto;
+  }
+
+  header .logo{
+    display: block;
+    padding:27px;
+    color:rgb(255, 0, 0);
+  }
+
+  .menu li{
+    float: left;
+  }
+
+  .menu li a{
+    padding: 27px 17px;
+    display: block;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color:rgb(255, 0, 0);
+  }
