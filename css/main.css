@@ -49,8 +49,7 @@
     display: flex;
   }
 
- 
-  .featuresBody .container{    /*featurest kısmı için */
+   .featuresBody .container {    /*featurest kısmı için */
     justify-content: space-between;
   }
 
@@ -58,6 +57,16 @@
     flex-grow: 1;
     width: 33.33%;
   }
+
+  .highlightsBody .container{  /*öne çıkanlar bölümü*/
+    justify-content: space-between;
+  }
+
+ .col2{
+    flex-grow: 1;
+    width: 50%;
+    padding: 20px;
+ }
 
   /* home settings (ana sayfa ayarları) */ 
 
@@ -178,4 +187,74 @@
 
 .itemText p{
   margin: 20px 0;
+}
+
+#parallax {       /*bu kısımda sorun var resim çıkmıyor*/
+  background: url('../img/parallax1.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+#parallax p {
+  color:white;
+}
+
+.highlightsTop{    /*öne çıkanlar*/
+  text-align: center;
+}
+
+.highlightsContainer{
+  position: relative;
+  width: 100%;
+}
+
+.imageOver{   /*öne çıkanlar resimleri*/
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.highlightsOverlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 0, 0, 0.473);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition:.5s ease ;
+}
+
+.highlightsContainer:hover .highlightsOverlay{
+  width: 100%;
+}
+
+.highlightsText{
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.highlightsOverlay2{
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: rgba(255, 0, 0, 0.473);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition:.5s ease ;
+}
+
+.highlightsContainer:hover .highlightsOverlay2{
+  width: 100%;
+  left: 0;
 }
