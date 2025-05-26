@@ -72,12 +72,12 @@
 
   header .logo{
     margin-right: auto;      /*logo tasarımı*/
+   
   }
 
-  header .logo{
+  header .logo img{
     display: block;
-    padding:27px;
-    color:rgb(255, 0, 0);
+   height: 90px;
   }
 
   .menu li{
@@ -257,4 +257,59 @@
 .highlightsContainer:hover .highlightsOverlay2{
   width: 100%;
   left: 0;
+}
+
+footer{
+  background:rgba(255, 0, 0, 0.473);
+  text-align: center;
+}
+
+.footerItem{
+  padding:20px ;
+}
+
+.footerItem img{
+  height: 50px;
+  opacity: .5;
+}
+
+footer h3{     /* h3 yazı*/
+  color: white;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+footer .fa{      /*iconler*/
+  font-size: 30;
+  color:rgba(255, 0, 0, 0.473);       
+  line-height: 70px;
+  transition: .3s ease;
+}
+
+footer .fa:hover{
+  color: white;
+}
+
+footer p{
+  color: white;
+  line-height: 20px;
+}
+
+.footerlinks a{
+  text-decoration: none;
+  color:rgba(255, 0, 0, 0.473);
+  letter-spacing: 2px;
+  transition: .3s ease;
+}
+
+.footerlinks a:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+.socialLinks li{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
 }
