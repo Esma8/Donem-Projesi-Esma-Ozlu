@@ -311,15 +311,15 @@ footer p{
 }
 
 
-/*kategoriler*/
+/*sanatlar*/
 
-#kategoriSlider{    /*başlığın altında giriş fotografı*/
+#SanatSlider{    /*başlığın altında giriş fotografı*/
   height: 250px;
   background: url('../img/dan-farrell-fT49QnFucQ8-unsplash.jpg') center center no-repeat;
   background-size: cover;
 }
 
-#kategoriCaption{
+#SanatCaption{
 height: 250px;
 background: rgba(0,0,0 .7);
 }
@@ -413,7 +413,7 @@ background: rgba(0,0,0 .7);
 .projectxBTN {
   background-color: #2980b9;
   color: white;
-  padding: 10px 20px;
+  padding: 10px 20px;}
  
 
 .projectxBTN:hover {
