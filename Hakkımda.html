@@ -1,97 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="El Sanatları Blog Web Sitesi">
+    <meta name="description" content="El Sanatları Blog Web Sitesi - Hakkımda">
     <meta name="author" content="Esma Özlü">
-    <meta name="keywords" content="HTML, CSS dilleri">
+    <meta name="keywords" content="el sanatları, blog, hakkımda, kişisel">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
-    <title>Hakkımda</title>
+    <title>Hakkımda - El Sanatları Blog</title>
     
-    <!--stil dosyaları-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-
-
 </head>
 <body>
     
     <header>
         <div class="container">
             <div class="logo">
-                <a href="index.html"><img src="img/logo.png"></a> <!--logo/isim bölümü-->
+                <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
             </div>
             <div class="menu">
-                <ul class="menuLinks">    <!--başlık bölümü-->
+                <ul class="menuLinks">
                     <li><a href="index.html">Ana Sayfa</a></li>             
-                    <li><a href="Sanat.html">Sanatlar</a></li>
-                    <li><a href="Hakkımda.html">Hakkımda</a></li>
+                    <li><a href="Sanatlar.html">Sanatlar</a></li>
+                    <li><a href="Hakkımda.html" class="active">Hakkımda</a></li>
                     <li><a href="iletisim.html">İletişim</a></li>
                 </ul>
             </div>
         </div>
     </header>
-    
-    <!-- main section (ana bölüm) -->
 
-    <section id="HakkımdaSlider" class="slider">
-        <div id="HakkımdaCaption" class="caption">
-          <h1>El Sanatları Sayfama Hoşgeldiniz</h1>  
-          <p>Kişisel blog sayfası olarak ilgimi çeken sanatları anlatıyorum.</p>
+    <section id="SanatSlider">
+        <div id="SanatCaption">
+            <div class="caption">
+                <h1>Hakkımda</h1>  
+                <p>El sanatlarına olan tutkum ve çalışmalarım...</p>
+            </div>
         </div>
     </section>
 
-     <!--hakkımda bölümü-->
-     <div class="container">
-        <section class="bio">
-            <h2>Hakkımda</h2>
-            <img src="profil-foto.jpg" alt="Profil Fotoğrafı" class="profile-img">
-            <p>Merhaba!</p>
-            <p></p>
-            <p></p>
-        </section>
-    </div>
-
-
-   
-   
-         <!--footer section -->
-
-
-         <footer class="sectionArea">
-            <div class="container">
-                <div class="col3">
-                  <div class="footerItem">
-                    <h3>El Sanatları Blog Sayfama Hoşgeldiniz</h3>
-                    <a href="index.html"><img src="img/logo.png"></a>  <!--logo/isim-->
-                    <p>jasdhısugfhsgfhsdbfıugfrhbfjhdghfu</p>
-                  </div>  
+    <section class="sectionArea">
+        <div class="container" style="justify-content: center;">
+            <div class="bio" style="max-width: 800px; margin: 40px auto; padding: 40px; border-radius: 15px; background: white; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);">
+                <div style="text-align: center; margin-bottom: 30px;">
+                    <img src="img/profil1.jpg" alt="Profil Fotoğrafı" class="profile-img" style="float: none; display: inline-block; margin-bottom: 30px;">
+                    <h2 style="color: rgb(255, 0, 0); font-size: 28px; margin-bottom: 20px;">Merhaba, Ben Esma Özlü</h2>
                 </div>
-                <div class="col3">
-                    <div class="footerItem">
-                      <h3>Hızlı Erişim</h3>  <!-- hızlı erişim kolonu-->
-                       <ul class="footerLinks">
-                        <li><a href="index.html">Ana Sayfa</a></li>
-                        <li><a href="Sanat.html">Sanatlar</a></li>
-                        <li><a href="about.html">Hakkımda</a></li>
-                        <li><a href="contact.html">İletişim</a></li>
-                       </ul>
-                    </div>  
-                  </div>
-                  <div class="col3">
-                    <div class="footerItem">
-                      <h3>Sosyal Medya</h3>   <!-- sosyal medya logoları-->
-                       <ul class="socialLinks">
-                        <li><a href="#"><i class="fab fa-telegram"></i></a></li>
-                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                       </ul>
-                    </div>  
-                  </div>
-            </div>
-         </footer>
+                
+                <div style="line-height: 1.8; color: #444;">
+                    <p style="margin-bottom: 20px;">El sanatlarına olan ilgim küçük yaşlarda başladı. Geleneksel Türk el sanatlarının zenginliği ve derinliği beni her zaman büyüledi. Bu blog, el sanatları alanındaki deneyimlerimi, öğrendiklerimi ve keşiflerimi sizlerle paylaşmak için oluşturduğum bir platform.</p>
+                    
+                    <p style="margin-bottom: 20px;">Özellikle ahşap oymacılığı, çini sanatı, telkari ve hat sanatı üzerine yoğunlaşıyorum. Her bir sanat dalının kendine has inceliklerini ve tekniklerini öğrenmek, uygulamak ve bu bilgileri sizlerle paylaşmak benim için büyük bir mutluluk.</p>
+                    
+                    <p>Bu blogda:</p>
+                    <ul style="list-style-type: disc; margin: 20px 0 20px 40px;">
+                        <li>Geleneksel el sanatları hakkında detaylı bilgiler</li>
+                        <li>Uygulama teknikleri ve püf noktaları</li>
+                        <li>Kişisel deneyimler ve öneriler</li>
+                        <li>El sanatları etkinlikleri ve haberler</li>
+                    </ul>
+                    
+                    <p>bulabilirsiniz.</p>
+                </div>
 
-        </body>
+                <div style="text-align: center; margin-top: 30px;">
+                    <a href="iletisim.html" class="btnDetails">İletişime Geç</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="sectionArea">
+        <div class="container">
+            <div class="col3">
+                <div class="footerItem">
+                    <h3>El Sanatları Blog Sayfama Hoşgeldiniz</h3>
+                    <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
+                    <p>Geleneksel el sanatlarımızı tanıtmak ve yaşatmak için buradayız.</p>
+                </div>  
+            </div>
+            <div class="col3">
+                <div class="footerItem">
+                    <h3>Hızlı Erişim</h3>
+                    <ul class="footerLinks">
+                        <li><a href="index.html">Ana Sayfa</a></li>
+                        <li><a href="Sanatlar.html">Sanatlar</a></li>
+                        <li><a href="Hakkımda.html">Hakkımda</a></li>
+                        <li><a href="iletisim.html">İletişim</a></li>
+                    </ul>
+                </div>  
+            </div>
+            <div class="col3">
+                <div class="footerItem">
+                    <h3>Sosyal Medya</h3>
+                    <ul class="socialLinks">
+                        <li><a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://x.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    </ul>
+                </div>  
+            </div>
+        </div>
+    </footer>
+
+</body>
 </html>
