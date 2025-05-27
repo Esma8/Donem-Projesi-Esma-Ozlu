@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="İletişim Sayfası - El Sanatları Blogu">
+    <meta name="author" content="Esma Özlü">
+    <meta name="keywords" content="iletişim, el sanatları, html css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>İletişim</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
+        </div>
+        <div class="menu">
+            <ul class="menuLinks">
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="Sanat.html">Sanatlar</a></li>
+                <li><a href="about.html">Hakkımda</a></li>
+                <li><a href="contact.html" class="active">İletişim</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<!-- Slider -->
+<section class="slider">
+    <div class="caption">
+        <h1>Bizimle İletişime Geçin</h1>
+        <p>Her türlü görüş, öneri ve sorularınız için aşağıdaki formu doldurabilirsiniz.</p>
+    </div>
+</section>
+
+<!-- İletişim Formu -->
+<div class="container">
+    <section class="bio">
+        <h2>İletişim Formu</h2>
+        <form action="#" method="POST">
+            <div style="margin-bottom: 15px;">
+                <label for="name">Ad Soyad:</label><br>
+                <input type="text" id="name" name="name" required style="width:100%; padding:10px;">
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for="email">E-posta:</label><br>
+                <input type="email" id="email" name="email" required style="width:100%; padding:10px;">
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for="message">Mesajınız:</label><br>
+                <textarea id="message" name="message" rows="5" required style="width:100%; padding:10px;"></textarea>
+            </div>
+            <button type="submit" style="background: rgb(255, 0, 0); color: white; padding: 10px 20px; border: none; cursor: pointer;">Gönder</button>
+        </form>
+    </section>
+</div>
+
+<!-- Footer -->
+<footer class="sectionArea">
+    <div class="container">
+        <div class="col3">
+            <div class="footerItem">
+                <h3>El Sanatları Blog Sayfama Hoşgeldiniz</h3>
+                <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
+                <p>El sanatlarına dair fikirler, ilham ve yaratıcı projeler burada.</p>
+            </div>
+        </div>
+        <div class="col3">
+            <div class="footerItem">
+                <h3>Hızlı Erişim</h3>
+                <ul class="footerLinks">
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="Sanat.html">Sanatlar</a></li>
+                    <li><a href="about.html">Hakkımda</a></li>
+                    <li><a href="contact.html">İletişim</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col3">
+            <div class="footerItem">
+                <h3>Sosyal Medya</h3>
+                <ul class="socialLinks">
+                    <li><a href="#"><i class="fab fa-telegram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
