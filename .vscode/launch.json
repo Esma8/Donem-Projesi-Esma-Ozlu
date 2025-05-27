@@ -7,8 +7,8 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open kategoriler.html",
-            "file": "c:\\Users\\hima0\\OneDrive\\Masaüstü\\GitHub\\Donem-Projesi-Esma-Ozlu\\kategoriler.html"
+            "name": "Open Sanatlar.html",
+            "file": "c:\\Users\\hima0\\OneDrive\\Masaüstü\\GitHub\\Donem-Projesi-Esma-Ozlu\\Sanatlar.html"
         }
     ]
 }
